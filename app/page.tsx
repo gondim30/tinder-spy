@@ -1,9 +1,5 @@
-import Component from "../button"
+import Component from "../simple-button"
 
 export default function Page() {
-  return (
-    <div>
-      <Component />
-    </div>
-  )
+  return <Component />
 }
